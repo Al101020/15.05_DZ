@@ -39,11 +39,16 @@
 
 
 /* Tags-2 */
+#tags2 {
+  margin: 0 0 15px 0;
+}
+
 .nowMassMedia {
   display: flex;
   /* display:  inline-block; */
   text-align: center;
   margin: 0 5px;
+  padding: 0 0 0 35px;
 }
 
 .nowMassMedia1 {
@@ -57,17 +62,56 @@
 }
 
 .nowMassMedia4 {
-  margin: 0 0 0 5px;
+  /* margin: 0 0 0 5px; */
+  margin: 0 0 0 0;
   color: gray;
 }
 
 .newsUl {
   list-style: none;
   text-align: left;
+  margin: 0 0 15px 0;
 }
 
 .picturesServ, .newsServ, .cardsServ, .marketServ, .translatorServ, .broadcastsServ {
   margin: 0 10px;
 }
 
+/* Яндекс поиск */
+#yandexInput {
+  width: 100%; /* Используется вся доступная ширина */ 
+  /* max-width: 500px;  Ограничение на максимальную ширину */ 
+}
 
+.yandexDiv {
+  display: flex; 
+}
+
+#yandex {
+  font-size: 20px;
+  margin: 0 10px 0 0;
+}
+
+#yandexInput {
+  border: 2px solid yellow;
+  padding: 0 5px;
+}
+
+#yandexButton {
+  padding: 0 10px 0 0;
+  background: yellow;
+}
+
+#yandexDivBottom {
+  display: flex;
+  font-size: 12px;
+  padding: 0 0 0 80px;
+  
+}
+
+.gray {
+  color: gray;
+  margin: 0 0 0 5px;
+}
+
+/* .yandexDivBottom */

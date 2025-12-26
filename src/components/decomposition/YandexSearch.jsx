@@ -11,6 +11,15 @@ export default function YandexSearch() {
         <a href='#' className='broadcastsServ'>Эфир</a>
         <a href='#' className='isStillServ'>ещё</a>
       </div>
+      <div className='yandexDiv'>
+        <div id='yandex'>Яндекс</div>
+        <input name='yandexInput' className='yandexInput' id='yandexInput' />
+        <div id='yandexButton'>Найти</div>
+      </div>
+      <div id='yandexDivBottom'>
+        <div>Найдётся всё. Hапример,</div>
+        <div className='gray'>фаза луны сегодня</div>
+      </div>
     </>
   )
 }

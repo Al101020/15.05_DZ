@@ -12,7 +12,7 @@ function App() {
       <div className='App'>
         <Cards />
       </div>
-      <div>------------------------------------------</div>
+      <div id='tags2'>------------- ниже 2-е задание ------------</div>
       <div className='App'>
         <Decomposition />
       </div>
