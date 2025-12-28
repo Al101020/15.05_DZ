@@ -1,4 +1,5 @@
 export default function YandexSearch() {
+  const toFind = () => console.log('кнопка Найти');
   return (
     <>
       <div className='yandexServices'>
@@ -14,7 +15,7 @@ export default function YandexSearch() {
       <div className='yandexDiv'>
         <div id='yandex'>Яндекс</div>
         <input name='yandexInput' className='yandexInput' id='yandexInput' />
-        <div id='yandexButton'>Найти</div>
+        <div id='yandexButton' onClick={toFind}>Найти</div>
       </div>
       <div id='yandexDivBottom'>
         <div>Найдётся всё. Hапример,</div>

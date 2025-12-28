@@ -47,8 +47,8 @@
   display: flex;
   /* display:  inline-block; */
   text-align: center;
-  margin: 0 5px;
-  padding: 0 0 0 35px;
+  margin: 0 0;
+  padding: 0 0 0 75px;
 }
 
 .nowMassMedia1 {
@@ -67,17 +67,68 @@
   color: gray;
 }
 
+.tableTop {
+  display:  flex;
+  /* border: 1px solid gray; */
+}
+
 .newsUl {
   list-style: none;
+  margin: 0 0 5px 0;
+  padding: 0 0;
+}
+
+.tableTopLeft {
   text-align: left;
-  margin: 0 0 15px 0;
+  font-size: 12px;
+  padding: 0 0 0 75px;
+}
+
+.tableTopRight {
+  position: relative;
+  /* position: block; */
+  text-align: left;
+  padding: 0 0 0 30px;
+  font-size: 12px;  
+}
+
+#chaShcha {
+  width: 50px;
+}
+
+.workOnBugs {
+  left: 0px;
+  font-size: 14px;
+}
+
+.seeItInYandex {
+  font-size: 10px;
+}
+
+.yandexServices {
+  padding: 0 0 0 80px;
+  font-size: 12px;
+  text-align: left;
+}
+
+.videoServ {
+  margin: 0 10px 0 0;
 }
 
 .picturesServ, .newsServ, .cardsServ, .marketServ, .translatorServ, .broadcastsServ {
   margin: 0 10px;
 }
 
+.isStillServ {
+  margin: 0 0 0 10px;
+}
+
 /* Яндекс поиск */
+#yandex {
+  font-size: 20px;
+  margin: 0 5px 0 0;
+}
+
 #yandexInput {
   width: 100%; /* Используется вся доступная ширина */ 
   /* max-width: 500px;  Ограничение на максимальную ширину */ 
@@ -87,26 +138,22 @@
   display: flex; 
 }
 
-#yandex {
-  font-size: 20px;
-  margin: 0 10px 0 0;
-}
-
 #yandexInput {
+  width: 500px;
   border: 2px solid yellow;
   padding: 0 5px;
 }
 
 #yandexButton {
-  padding: 0 10px 0 0;
+  padding: 0 10px 0 10px;
   background: yellow;
+  cursor: pointer;
 }
 
 #yandexDivBottom {
   display: flex;
   font-size: 12px;
-  padding: 0 0 0 80px;
-  
+  padding: 0 0 0 80px;  
 }
 
 .gray {
@@ -114,4 +161,51 @@
   margin: 0 0 0 5px;
 }
 
-/* .yandexDivBottom */
+.advertisement {
+  padding: 0 60px 0 60px;
+}
+
+#advertisement {
+  max-width: 500px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-left: 75px;
+  margin-right: 75px;
+  text-align: left;
+  font-size: 12px;
+}
+
+
+
+
+
+.column {
+  border: 1px solid black;
+  width: 150px;
+}
+
+.divWeather {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgWeather {
+  width: 35px;
+  object-fit: contain ;
+}
+
+.degrees {
+  font-size: 20px;
+}
+
+.morningAndEvening {
+  font-size: 10px;
+}
+
+/* .weather {
+  font-size: 12px;
+} */

@@ -1,13 +1,15 @@
-import NowMassMedia from "./NowMassMedia";
-import NewsUl from "./NewsUl";
-import YandexSearch from "./YandexSearch";
+import Top from './Top/Top';
+import YandexSearch from './YandexSearch/YandexSearch';
+import Advertisement from './Advertisement/Advertisement';
+import Bottom from './Bottom/Bottom';
 
 export default function Decomposition() {
   return (
     <>
-      <NowMassMedia />
-      <NewsUl />
+      <Top />
       <YandexSearch />
+      <Advertisement />
+      <Bottom />
     </>
   )
 }
