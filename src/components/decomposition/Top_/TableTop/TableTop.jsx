@@ -1,12 +1,11 @@
-import NewsUl from "./NewsUl/NewsUl";
-import TableTopRifht from "./TableTopRifht/TableTopRifht";
+import NewsUl from "./NewsUl";
+import TableTopRifht from "./TableTopRifht";
 
-export default function TableTop(props) {
-  const arrayLi = props.props;
+export default function TableTop() {
     return (
       <div className='tableTop'>
         <div className='tableTopLeft'>
-          <NewsUl props={arrayLi} />
+          <NewsUl />
         </div>
         <div className='tableTopRight'>
           <TableTopRifht />
