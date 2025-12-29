@@ -174,7 +174,7 @@
   justify-content: space-between;
   margin-top: 15px;
   margin-left: 75px;
-  margin-right: 75px;
+  margin-right: 70px;
   text-align: left;
   font-size: 12px;
 }
@@ -184,13 +184,14 @@
 
 
 .column {
-  border: 1px solid black;
-  width: 150px;
+  /* border: 1px solid black; */
+  width: 155px;
 }
-
+/* 1-Колонка */
 .divWeather {
   display: flex;
   justify-content: space-between;
+  margin: 0 0 10px 0;
 }
 
 .imgWeather {
@@ -203,9 +204,32 @@
 }
 
 .morningAndEvening {
-  font-size: 10px;
+  font-size: 9px;
 }
 
-/* .weather {
-  font-size: 12px;
-} */
+.divAttendance, .divMapOfGermany {
+  font-size: 9px;
+}
+
+/* 2-Колонка */
+.divMapOfGermany {
+  margin: 0 0 10px 0;
+}
+
+.divTvProgram {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0 0 10px 0; */
+}
+
+.imgTvProgram {
+  width: 50px;
+}
+
+.elemTvProgram, .elemEther {
+  display: flex;
+  font-size: 9px;
+  justify-content: space-between;
+}
+
+/* 3-Колонка */
