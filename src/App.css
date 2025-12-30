@@ -68,14 +68,38 @@
 }
 
 .tableTop {
-  display:  flex;
-  /* border: 1px solid gray; */
+  display: flex;  
 }
 
 .newsUl {
   list-style: none;
-  margin: 0 0 5px 0;
+  margin: 0 0 0 0;
   padding: 0 0;
+  /* border: 1px solid gray; */
+  /* left: -20px */
+}
+
+.newsLi {
+  display: flex; 
+}
+
+.newsLiImg {
+  object-fit: contain;
+}
+
+.newsLiP {
+  margin: 0 0;
+}
+
+.currencyPrices {
+  display: flex;
+  padding: 5px 0;
+}
+
+.prices {
+  display: flex;
+  font-size: 11px;
+  padding: 0 10px 15px 0;
 }
 
 .tableTopLeft {
